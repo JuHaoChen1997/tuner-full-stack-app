@@ -19,5 +19,10 @@ app.get("/", (req, res) => {
 //songs route
 app.use("/songs", songsController);
 
+//error route
+app.use("*", (req, res) => {
+  res.status(404).send("Page not found!");
+});
+
 //export app
 module.exports = app;
