@@ -13,7 +13,7 @@ app.use(express.json()); //parse request body into json format
 
 //home route
 app.get("/", (req, res) => {
-  res.send("Hello, this is home page.");
+  res.send("Welcome to Tuner");
 });
 
 //songs route
