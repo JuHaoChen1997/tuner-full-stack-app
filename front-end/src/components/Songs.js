@@ -23,7 +23,6 @@ function Songs() {
       <button>
         <a href="/songs/new">New Song</a>
       </button>
-      <h2>Songs</h2>
       <table>
         <thead>
           <tr>
